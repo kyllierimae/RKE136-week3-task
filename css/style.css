@@ -12,19 +12,19 @@ html {
 }
 
 .movie-card {
-    margin-top: 2rem;
+    margin-top: 5rem;
     height: 800px;
     text-align: center;
 }
 
 .movie-title {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .movie-poster-container img {
     margin-top: 2rem;
-    height: 32rem;
-    border-radius: 5px;
+    height: 500px;
+    border-radius: 20px;
 }
 
 .movie-rating {
