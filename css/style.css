@@ -35,6 +35,7 @@ html {
 }
 
 
+
 .movie-duration {
     margin-left: 1rem;
     letter-spacing: 0.2rem;
@@ -125,4 +126,37 @@ footer ul li:hover, footer ul li a:hover {
     color: rgb(62, 135, 231);
 
 
+}
+.modal {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(38, 49, 107, 0.568);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.modal-content {
+    background-color: antiquewhite;
+    margin: 5% auto;
+    padding: 1rem;
+    width: 600px;
+    height: 600px;
+    animation: zoom-in 1s;
+    color:rgb(20, 37, 131)
+
+}
+@keyframes zoom-in {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+.closeBtn {
+    float: right;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.movie-poster-modal {
+    width: 300px;
 }
